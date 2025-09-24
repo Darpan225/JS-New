@@ -1,0 +1,53 @@
+🌱 Learner Must-Know (core basics you’ll use all the time)
+
+These are essential — learn them first:
+
+length → get string length.
+
+charAt() → get character at index (though .at() is better in modern code).
+
+indexOf() / lastIndexOf() → find substrings.
+
+includes() → check if substring exists.
+
+slice() → extract part of string.
+
+substring() / substr() → similar to slice (know them, but slice() is preferred).
+
+split() → break string into array.
+
+toUpperCase() / toLowerCase() → change case.
+
+trim() / trimStart() / trimEnd() → remove spaces.
+
+replace() / replaceAll() → modify parts of string.
+
+concat() → join strings (though + or template literals are preferred).
+
+startsWith() / endsWith() → check prefixes/suffixes.
+
+🚀 Professional Must-Know (used heavily in real-world projects)
+
+After the basics, these become very handy:
+
+match() / matchAll() → regex matching.
+
+search() → regex search.
+
+padStart() / padEnd() → string formatting (useful in UI, IDs, etc.).
+
+repeat() → repeat a string multiple times.
+
+localeCompare() → compare strings properly (e.g., in sorting with international characters).
+
+normalize() → Unicode normalization (important in multilingual apps).
+
+toLocaleLowerCase() / toLocaleUpperCase() → locale-aware casing.
+
+📌 Good-to-Know (rare but can be useful)
+
+charCodeAt() / codePointAt() → when working with Unicode / emoji characters.
+
+valueOf() / toString() / constructor → low-level methods (usually called automatically).
+
+isWellFormed() / toWellFormed() → newer Unicode-safe string handling (rare but modern).
